@@ -58,6 +58,7 @@ object Libs {
     //Koin
     const val koinViewModel = "org.koin:koin-android-viewmodel:${Version.koin}"
     const val koin  = "org.koin:koin-android:${Version.koin}"
+    const val koinCore  = "io.insert-koin:koin-core:${Version.koin}"
 
     //Room
     const val roomCompiler = "androidx.room:room-compiler:${Version.room}"

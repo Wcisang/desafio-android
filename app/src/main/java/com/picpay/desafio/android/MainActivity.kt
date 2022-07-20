@@ -50,8 +50,8 @@ class MainActivity : AppCompatActivity(R.layout.activity_main) {
 
         progressBar.visibility = View.VISIBLE
         service.getUsers()
-            .enqueue(object : Callback<List<User>> {
-                override fun onFailure(call: Call<List<User>>, t: Throwable) {
+            .enqueue(object : Callback<List<com.picpay.desafio.android.domain.model.User>> {
+                override fun onFailure(call: Call<List<com.picpay.desafio.android.domain.model.User>>, t: Throwable) {
                     val message = getString(R.string.error)
 
                     progressBar.visibility = View.GONE
@@ -61,7 +61,7 @@ class MainActivity : AppCompatActivity(R.layout.activity_main) {
                         .show()
                 }
 
-                override fun onResponse(call: Call<List<User>>, response: Response<List<User>>) {
+                override fun onResponse(call: Call<List<com.picpay.desafio.android.domain.model.User>>, response: Response<List<com.picpay.desafio.android.domain.model.User>>) {
                     progressBar.visibility = View.GONE
 
                     adapter.users = response.body()!!
