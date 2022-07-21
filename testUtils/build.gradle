@@ -1,0 +1,10 @@
+apply plugin: 'com.android.library'
+apply from: '../gradle_util/android-build.gradle'
+
+dependencies {
+
+    implementation project(Modules.domain)
+    implementation LibsTest.jUnit
+    implementation LibsTest.mockk
+    implementation LibsTest.coroutinesTest
+}

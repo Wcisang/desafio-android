@@ -10,4 +10,5 @@ dependencies {
     testImplementation LibsTest.jUnit
     testImplementation LibsTest.mockk
     testImplementation LibsTest.coroutinesTest
+    testImplementation project(Modules.testUtils)
 }
