@@ -2,34 +2,9 @@ apply plugin: 'com.android.application'
 apply from: '../gradle_util/android-build.gradle'
 
 dependencies {
-    implementation Libs.coreKtx
-    implementation Libs.appCompat
-    implementation Libs.constraintLayout
-    implementation Libs.material
+    implementation project(Modules.domain)
+    implementation project(Modules.data)
+    implementation project(Modules.presentation)
+
     implementation Libs.koin
-    implementation Libs.viewModel
-    implementation Libs.lifecycleKtx
-
-    implementation Libs.coroutines
-    implementation Libs.coroutinesAdapter
-    implementation Libs.coroutinesAndroid
-    testImplementation LibsTest.coroutinesTest
-
-    implementation Libs.jackson
-    implementation Libs.jacksonConverter
-
-    implementation Libs.retrofit
-    implementation Libs.okhttp
-
-    implementation Libs.coil
-    implementation Libs.circleImage
-
-    testImplementation LibsTest.jUnit
-    testImplementation LibsTest.mockk
-    testImplementation LibsTest.coreKtx
-    implementation LibsTest.koinTest
-
-    //androidTestImplementation "androidx.test:runner:$test_runner_version"
-    androidTestImplementation LibsTest.espressoCore
-    androidTestImplementation LibsTest.testCoreKtx
 }
