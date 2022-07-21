@@ -1,0 +1,17 @@
+apply plugin: 'com.android.library'
+apply from: '../gradle_util/android-build.gradle'
+
+dependencies {
+
+    implementation project(Modules.domain)
+    implementation project(Modules.data)
+
+    implementation Libs.viewModel
+    implementation Libs.koin
+    implementation Libs.appCompat
+    implementation Libs.constraintLayout
+    implementation Libs.circleImage
+    implementation Libs.coil
+    implementation Libs.lifecycleKtx
+    implementation Libs.material
+}

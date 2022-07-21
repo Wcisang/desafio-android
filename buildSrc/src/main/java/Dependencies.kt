@@ -33,7 +33,6 @@ object Libs {
 
     const val kotlinStd = "org.jetbrains.kotlin:kotlin-stdlib:${Version.kotlin}"
     const val appCompat = "androidx.appcompat:appcompat:${Version.appCompat}"
-    const val lifecycle = "androidx.lifecycle:lifecycle-extensions:${Version.lifecycle}"
     const val viewModel = "androidx.lifecycle:lifecycle-viewmodel-ktx:${Version.lifecycle}"
     const val coreKtx =  "androidx.core:core-ktx:${Version.coreKtx}"
     const val material = "com.google.android.material:material:${Version.material}"
@@ -63,7 +62,7 @@ object Libs {
     const val roomKtx = "androidx.room:room-ktx:${Version.room}"
 }
 
-object LibsTest{
+object LibsTest {
 
     const val jUnit = "junit:junit:${Version.jUnit}"
     const val robolectric = "org.robolectric:robolectric:${Version.robolectric}"
@@ -71,7 +70,7 @@ object LibsTest{
     const val espressoContrib = "androidx.test.espresso:espresso-contrib:${Version.espresso}"
     const val mockk = "io.mockk:mockk:${Version.mockk}"
     const val testCoreKtx = "androidx.test:core-ktx:${Version.testCore}"
-    const val koinTest = "org.koin:koin-test:${Version.koin}"
+    const val koinTest = "io.insert-koin:koin-test:${Version.koin}"
     const val archTest = "androidx.arch.core:core-testing:${Version.archTest}"
     const val coreKtx = "androidx.core:core-ktx:${Version.coreKtx}"
     const val coroutinesTest = "org.jetbrains.kotlinx:kotlinx-coroutines-test:${Version.coroutines}"

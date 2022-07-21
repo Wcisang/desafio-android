@@ -9,7 +9,6 @@ dependencies {
     implementation Libs.koin
     implementation Libs.viewModel
     implementation Libs.lifecycleKtx
-    implementation Libs.lifecycle
 
     implementation Libs.coroutines
     implementation Libs.coroutinesAdapter
