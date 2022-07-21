@@ -7,7 +7,7 @@ import androidx.recyclerview.widget.RecyclerView
 
 class UserListAdapter : RecyclerView.Adapter<UserListItemViewHolder>() {
 
-    var users = emptyList<User>()
+    var users = emptyList<com.picpay.desafio.android.domain.model.User>()
         set(value) {
             val result = DiffUtil.calculateDiff(
                 UserListDiffCallback(

@@ -7,7 +7,6 @@ dependencies {
     implementation Libs.constraintLayout
     implementation Libs.material
     implementation Libs.koin
-    implementation Libs.koinViewModel
     implementation Libs.viewModel
     implementation Libs.lifecycleKtx
     implementation Libs.lifecycle

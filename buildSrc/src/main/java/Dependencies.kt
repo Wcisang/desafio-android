@@ -56,9 +56,7 @@ object Libs {
     const val coroutinesAndroid = "org.jetbrains.kotlinx:kotlinx-coroutines-android:${Version.coroutines}"
 
     //Koin
-    const val koinViewModel = "org.koin:koin-android-viewmodel:${Version.koin}"
-    const val koin  = "org.koin:koin-android:${Version.koin}"
-    const val koinCore  = "io.insert-koin:koin-core:${Version.koin}"
+    const val koin  = "io.insert-koin:koin-android:${Version.koin}"
 
     //Room
     const val roomCompiler = "androidx.room:room-compiler:${Version.room}"
