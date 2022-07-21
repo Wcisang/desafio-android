@@ -10,6 +10,7 @@
       <map>
         <entry key="app/src/main/res/drawable/ic_round_account_circle.xml" value="0.194" />
         <entry key="presentation/src/main/res/drawable/ic_round_account_circle.xml" value="0.194" />
+        <entry key="presentation/src/main/res/layout/activity_main.xml" value="0.12771739130434784" />
         <entry key="presentation/src/main/res/layout/list_item_user.xml" value="0.1859375" />
       </map>
     </option>

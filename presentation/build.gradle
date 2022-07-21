@@ -1,6 +1,12 @@
 apply plugin: 'com.android.library'
 apply from: '../gradle_util/android-build.gradle'
 
+android {
+    viewBinding {
+        enabled = true
+    }
+}
+
 dependencies {
 
     implementation project(Modules.domain)

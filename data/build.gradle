@@ -17,4 +17,6 @@ dependencies {
     testImplementation LibsTest.mockk
     testImplementation LibsTest.coroutinesTest
     testImplementation LibsTest.jUnitExt
+    testImplementation LibsTest.robolectric
+    testImplementation project(Modules.testUtils)
 }
