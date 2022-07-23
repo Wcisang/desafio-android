@@ -16,11 +16,12 @@ object Version {
     const val coil = "2.1.0"
     const val room = "2.4.2"
     const val circleImage = "3.1.0"
+    const val idliResource = "1.0.0"
 
     //test
     const val jUnit = "4.13.2"
     const val robolectric = "4.8.1"
-    const val espresso = "3.3.0"
+    const val espresso = "3.5.0-alpha07"
     const val mockk = "1.10.3-jdk8"
     const val testCore = "1.3.0"
     const val archTest = "2.1.0"
@@ -71,9 +72,12 @@ object LibsTest {
     const val mockk = "io.mockk:mockk:${Version.mockk}"
     const val testCoreKtx = "androidx.test:core-ktx:${Version.testCore}"
     const val koinTest = "io.insert-koin:koin-test:${Version.koin}"
+    const val koinJunitTest = "io.insert-koin:koin-test-junit4:${Version.koin}"
     const val archTest = "androidx.arch.core:core-testing:${Version.archTest}"
     const val coreKtx = "androidx.core:core-ktx:${Version.coreKtx}"
     const val coroutinesTest = "org.jetbrains.kotlinx:kotlinx-coroutines-test:${Version.coroutines}"
     const val jUnitExt = "androidx.test.ext:junit:${Version.jUnitExt}"
     const val truth = "com.google.truth:truth:${Version.truth}"
+    const val mockWebServer = "com.squareup.okhttp3:mockwebserver:${Version.okHttp}"
+    const val idlingResource = "com.jakewharton.espresso:okhttp3-idling-resource:${Version.idliResource}"
 }

@@ -20,4 +20,15 @@ dependencies {
     implementation Libs.coil
     implementation Libs.lifecycleKtx
     implementation Libs.material
+
+    testImplementation project(Modules.testUtils)
+    testImplementation LibsTest.jUnit
+    testImplementation LibsTest.robolectric
+    testImplementation LibsTest.espressoCore
+    testImplementation LibsTest.espressoContrib
+    testImplementation LibsTest.mockk
+    testImplementation LibsTest.coroutinesTest
+    testImplementation LibsTest.testCoreKtx
+    testImplementation LibsTest.truth
+
 }

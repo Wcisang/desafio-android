@@ -4,7 +4,15 @@ apply from: '../gradle_util/android-build.gradle'
 dependencies {
 
     implementation project(Modules.domain)
+    implementation Libs.material
     implementation LibsTest.jUnit
     implementation LibsTest.mockk
+    implementation LibsTest.robolectric
     implementation LibsTest.coroutinesTest
+    implementation LibsTest.coreKtx
+    implementation LibsTest.testCoreKtx
+    implementation LibsTest.jUnitExt
+    implementation LibsTest.mockWebServer
+    api LibsTest.koinJunitTest
+    api LibsTest.koinTest
 }

@@ -1,11 +1,12 @@
 package com.picpay.desafio.android.presentation.ui
 
 import androidx.appcompat.app.AppCompatActivity
-import androidx.core.view.isVisible
 import androidx.lifecycle.lifecycleScope
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.picpay.desafio.android.presentation.adapter.UserListAdapter
 import com.picpay.desafio.android.presentation.databinding.ActivityMainBinding
+import com.picpay.desafio.android.presentation.utils.hide
+import com.picpay.desafio.android.presentation.utils.show
 import kotlinx.coroutines.flow.collectLatest
 import org.koin.androidx.viewmodel.ext.android.viewModel
 
@@ -54,12 +55,12 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun showLoading() {
-        binding.pbList.isVisible = true
-        binding.rvList.isVisible = false
+        binding.pbList.show()
+        binding.rvList.hide()
     }
 
     private fun hideLoading() {
-        binding.pbList.isVisible = false
-        binding.rvList.isVisible = true
+        binding.pbList.hide()
+        binding.rvList.show()
     }
 }

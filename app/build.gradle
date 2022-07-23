@@ -7,4 +7,18 @@ dependencies {
     implementation project(Modules.presentation)
 
     implementation Libs.koin
+
+    androidTestImplementation(project(Modules.testUtils)) {
+        exclude group: "org.robolectric"
+    }
+    androidTestImplementation LibsTest.jUnit
+    androidTestImplementation Libs.retrofit
+    androidTestImplementation Libs.okhttp
+    androidTestImplementation Libs.jacksonConverter
+    androidTestImplementation LibsTest.koinTest
+    androidTestImplementation LibsTest.espressoCore
+    androidTestImplementation LibsTest.espressoContrib
+    androidTestImplementation LibsTest.mockWebServer
+    androidTestImplementation LibsTest.testCoreKtx
+    androidTestImplementation LibsTest.idlingResource
 }
