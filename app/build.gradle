@@ -5,6 +5,7 @@ dependencies {
     implementation project(Modules.domain)
     implementation project(Modules.data)
     implementation project(Modules.presentation)
+    implementation project(Modules.security)
 
     implementation Libs.koin
 
