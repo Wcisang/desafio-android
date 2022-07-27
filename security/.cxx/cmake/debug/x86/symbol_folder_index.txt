@@ -1,0 +1,1 @@
+/home/cisangw/AndroidProjects/desafio-android/security/build/intermediates/cmake/debug/obj/x86

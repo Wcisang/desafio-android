@@ -1,0 +1,5 @@
+# ninja log v5
+0	1111	1658943550	CMakeFiles/secrets.dir/secrets.cpp.o	ebc4fbba98bb41f1
+1112	1155	1658943550	/home/cisangw/AndroidProjects/desafio-android/security/build/intermediates/cmake/debug/obj/x86_64/libsecrets.so	f752296074c94d23
+1	658	1658944847	CMakeFiles/secrets.dir/secrets.cpp.o	ebc4fbba98bb41f1
+658	671	1658944847	/home/cisangw/AndroidProjects/desafio-android/security/build/intermediates/cmake/debug/obj/x86_64/libsecrets.so	f752296074c94d23

@@ -1,0 +1,3 @@
+/home/cisangw/AndroidProjects/desafio-android/security/.cxx/cmake/debug/x86_64/CMakeFiles/rebuild_cache.dir
+/home/cisangw/AndroidProjects/desafio-android/security/.cxx/cmake/debug/x86_64/CMakeFiles/edit_cache.dir
+/home/cisangw/AndroidProjects/desafio-android/security/.cxx/cmake/debug/x86_64/CMakeFiles/secrets.dir

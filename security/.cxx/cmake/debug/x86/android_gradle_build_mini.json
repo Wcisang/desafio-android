@@ -1,0 +1,33 @@
+{
+  "buildFiles": [
+    "/home/cisangw/AndroidProjects/desafio-android/security/src/main/cpp/CMakeLists.txt"
+  ],
+  "cleanCommandsComponents": [
+    [
+      "/home/cisangw/Android/Sdk/cmake/3.10.2.4988404/bin/ninja",
+      "-C",
+      "/home/cisangw/AndroidProjects/desafio-android/security/.cxx/cmake/debug/x86",
+      "clean"
+    ]
+  ],
+  "buildTargetsCommandComponents": [
+    "/home/cisangw/Android/Sdk/cmake/3.10.2.4988404/bin/ninja",
+    "-C",
+    "/home/cisangw/AndroidProjects/desafio-android/security/.cxx/cmake/debug/x86",
+    "{LIST_OF_TARGETS_TO_BUILD}"
+  ],
+  "libraries": {
+    "secrets-Debug-x86": {
+      "artifactName": "secrets",
+      "buildCommandComponents": [
+        "/home/cisangw/Android/Sdk/cmake/3.10.2.4988404/bin/ninja",
+        "-C",
+        "/home/cisangw/AndroidProjects/desafio-android/security/.cxx/cmake/debug/x86",
+        "secrets"
+      ],
+      "abi": "x86",
+      "output": "/home/cisangw/AndroidProjects/desafio-android/security/build/intermediates/cmake/debug/obj/x86/libsecrets.so",
+      "runtimeFiles": []
+    }
+  }
+}
