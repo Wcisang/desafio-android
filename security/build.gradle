@@ -1,5 +1,14 @@
 apply plugin: 'com.android.library'
+apply plugin: 'com.klaxit.hiddensecrets'
 apply from: '../gradle_util/android-build.gradle'
+
+android {
+    externalNativeBuild {
+        cmake {
+            path "src/main/cpp/CMakeLists.txt"
+        }
+    }
+}
 
 dependencies {
 

@@ -8,6 +8,6 @@ object BuildVersions {
 }
 
 object BuildNames {
-    const val applicationId = "com.wcisang.gistchallenge"
+    const val applicationId = "com.picpay.desafio.android"
     const val testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
 }

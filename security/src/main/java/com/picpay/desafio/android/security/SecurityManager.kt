@@ -1,6 +1,7 @@
 package com.picpay.desafio.android.security
 
 import android.content.Context
+import com.picpay.desafio.android.security.certificate.SignCertificateValidation
 import com.picpay.desafio.android.security.detectors.PicPayRootDetectorsFactory
 
 class SecurityManager(private val context: Context) {
@@ -14,6 +15,8 @@ class SecurityManager(private val context: Context) {
         for (detector in detectorsList) {
             detector.check()
         }
+        val signValidator = SignCertificateValidation()
+        val isSigned = signValidator.validateAppSignature(context)
         return false
     }
 }

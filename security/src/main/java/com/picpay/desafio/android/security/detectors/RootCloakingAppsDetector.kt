@@ -1,6 +1,7 @@
 package com.picpay.desafio.android.security.detectors
 
 import android.content.Context
+import com.picpay.desafio.android.Secrets
 import com.picpay.desafio.android.security.detectors.utils.DetectionUtils
 
 class RootCloakingAppsDetector(private val context: Context) : PicPayRootDetection {
